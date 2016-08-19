@@ -11,12 +11,12 @@ html, body {
 .image-box {
   margin: 0 auto;
   width: 100%;
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0;
+  opacity: 0;*/
   transition: 3s;
   transition-delay: 1s;
   text-align: center;
@@ -24,6 +24,7 @@ html, body {
 
 img.head {
   max-width: 400px;
+  width: 100%;
 }
 
 img {
@@ -33,4 +34,29 @@ img {
 
 .image-box.reveal {
   opacity: 1;
+}
+
+footer {
+  font-family: 'Open Sans' sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
